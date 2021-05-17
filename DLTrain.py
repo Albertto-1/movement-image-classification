@@ -62,12 +62,11 @@ model = Sequential([
 ])
 
 model.compile(optimizer='adam',
-              # loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
               loss='mse',
               metrics=['accuracy'])
 model.summary()
 
-epochs=6
+epochs=5
 history = model.fit(
         train_db,
         validation_data=test_db,
