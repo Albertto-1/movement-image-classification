@@ -12,5 +12,5 @@ The available movements/figures are:
 
 This project uses sklearn and tensorflow frameworks to train, test and predict multiple models.
 
-The DLTrain.py was based in this [tensorflow image classification tutorial](https://www.tensorflow.org/tutorials/images/classification#import_tensorflow_and_other_libraries)
+The DLTrain.py was based in this [tensorflow image classification tutorial](https://www.tensorflow.org/tutorials/images/classification#import_tensorflow_and_other_libraries).
 
